@@ -29,7 +29,7 @@ public static void main(String[] args) {}
 			break;
 		case "firefox":
 			// Create driver
-			System.setProperty("webdriver.gecko.driver", "src/main/resources/geckodriver.exe");
+			System.setProperty("webdriver.gecko.driver", "src/main/resources/geckodriver");
 			driver = new FirefoxDriver();
 			break;
 
