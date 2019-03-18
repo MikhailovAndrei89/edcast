@@ -43,6 +43,36 @@
 
 	</dependencies>
 
+
+	<profiles>
+		<profile>
+			<id>testng_1r</id>
+			<build>
+				<plugins>
+					<!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-surefire-plugin -->
+					<plugin>
+						<groupId>org.apache.maven.plugins</groupId>
+						<artifactId>maven-surefire-plugin</artifactId>
+						<version>3.0.0-M3</version>
+						<configuration>
+							<!--should reflect generated name.xml file of the project -->
+							<suiteXmlFiles>
+								<suiteXmlFile>testng_1.xml</suiteXmlFile>
+							</suiteXmlFiles>
+							<properties>
+								<property>
+									<name>testng_1</name>
+									<value>1</value>
+								</property>
+							</properties>
+							<testFailureIgnore>true</testFailureIgnore>
+						</configuration>
+					</plugin>
+				</plugins>
+			</build>
+		</profile>
+	</profiles>
+
 	<build>
 
 		<plugins>
