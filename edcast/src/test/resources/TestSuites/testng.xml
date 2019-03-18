@@ -3,7 +3,7 @@
 <suite name="FirstTests" verbose="1" >
   
   <test name="NegativeTestsEdcast-FF">
-  <parameter name ="browser" value ="firefox" />
+  <parameter name ="browser" value ="chrome" />
   <parameter name ="username" value ="fortest.andrew12@gmail.com" />
   <parameter name ="password" value ="Aa8452006027?" /> 
     <classes>
@@ -12,7 +12,7 @@
   </test>
   
   <test name="ForgotPasswordEdcast-FF">
-  <parameter name ="browser" value ="firefox" />
+  <parameter name ="browser" value ="chrome" />
   <parameter name ="username" value ="fortest.andrew12@gmail.com" />
     <classes>
       <class name="com.edcast.ForgotPasswordEdcast"/>
@@ -20,7 +20,7 @@
   </test>
   
   <test name="PositiveTestsEdcast-FF" >
-  <parameter name ="browser" value ="firefox" />
+  <parameter name ="browser" value ="chrome" />
   <parameter name ="username" value ="fortest.andrew@gmail.com" />
   <parameter name ="password" value ="Aa8452006027?" /> 
     <classes>
