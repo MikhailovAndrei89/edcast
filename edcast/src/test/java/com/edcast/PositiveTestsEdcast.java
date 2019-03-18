@@ -25,7 +25,7 @@ public class PositiveTestsEdcast {
 		switch (browser) {
 		case "chrome":
 			// Create driver
-			System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver");
 			driver = new ChromeDriver();
 			break;
 		case "firefox":
