@@ -18,7 +18,7 @@ public static void main(String[] args) {}
 
 	@Parameters({ "browser" })
 	@BeforeMethod
-	protected void setUp(@Optional("chrome") String browser) {
+	protected void setUp(@Optional("firefox") String browser) {
 		System.out.println("Create driver " + browser);
 
 		switch (browser) {
