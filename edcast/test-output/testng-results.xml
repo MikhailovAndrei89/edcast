@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="13636" started-at="2019-03-17T19:35:22Z" finished-at="2019-03-17T19:35:36Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="13636" started-at="2019-03-17T19:35:22Z" finished-at="2019-03-17T19:35:36Z">
+      <class name="com.edcast.PositiveTestsEdcast">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.edcast.PositiveTestsEdcast@5e5792a0]" name="setUp" is-config="true" duration-ms="4781" started-at="2019-03-17T19:35:22Z" finished-at="2019-03-17T19:35:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="correctUserName(java.lang.String, java.lang.String)[pri:0, instance:com.edcast.PositiveTestsEdcast@5e5792a0]" name="correctUserName" duration-ms="8191" started-at="2019-03-17T19:35:27Z" finished-at="2019-03-17T19:35:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[fortest.andrew@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Aa8452006027?]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- correctUserName -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.edcast.PositiveTestsEdcast@5e5792a0]" name="tearDown" is-config="true" duration-ms="642" started-at="2019-03-17T19:35:35Z" finished-at="2019-03-17T19:35:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.edcast.PositiveTestsEdcast -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

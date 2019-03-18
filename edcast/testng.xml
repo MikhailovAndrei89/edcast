@@ -1,0 +1,31 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="FirstTests" verbose="1" >
+  
+  <test name="NegativeTestsEdcast-CH">
+  <parameter name ="browser" value ="chrome" />
+  <parameter name ="username" value ="fortest.andrew12@gmail.com" />
+  <parameter name ="password" value ="Aa8452006027?" /> 
+    <classes>
+      <class name="com.edcast.NegativeTestsEdcast"/>
+    </classes>
+  </test>
+  
+  <test name="ForgotPasswordEdcast-CH">
+  <parameter name ="browser" value ="chrome" />
+  <parameter name ="username" value ="fortest.andrew12@gmail.com" />
+    <classes>
+      <class name="com.edcast.ForgotPasswordEdcast"/>
+    </classes>
+  </test>
+  
+  <test name="PositiveTestsEdcast-CH" >
+  <parameter name ="browser" value ="chrome" />
+  <parameter name ="username" value ="fortest.andrew@gmail.com" />
+  <parameter name ="password" value ="Aa8452006027?" /> 
+    <classes>
+       <class name="com.edcast.PositiveTestsEdcast" />
+    </classes>
+  </test>
+
+</suite>

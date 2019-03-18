@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [FirstTests]">
+  <test thread-count="5" verbose="0" name="ForgotPasswordEdcast-CH(failed)">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="username" value="fortest.andrew12@gmail.com"/>
+    <classes>
+      <class name="com.edcast.ForgotPasswordEdcast">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="logInTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.edcast.ForgotPasswordEdcast -->
+    </classes>
+  </test> <!-- ForgotPasswordEdcast-CH(failed) -->
+  <test thread-count="5" verbose="0" name="PositiveTestsEdcast-CH(failed)">
+    <parameter name="password" value="Aa8452006027?"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="username" value="fortest.andrew@gmail.com"/>
+    <classes>
+      <class name="com.edcast.PositiveTestsEdcast">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="correctUserName" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.edcast.PositiveTestsEdcast -->
+    </classes>
+  </test> <!-- PositiveTestsEdcast-CH(failed) -->
+</suite> <!-- Failed suite [FirstTests] -->
