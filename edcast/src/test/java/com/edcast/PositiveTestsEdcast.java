@@ -19,18 +19,18 @@ public class PositiveTestsEdcast {
 
 	@Parameters({ "browser" })
 	@BeforeMethod
-	protected void setUp(@Optional("firefox") String browser) {
+	protected void setUp(@Optional("chrome") String browser) {
 		System.out.println("Create driver " + browser);
 
 		switch (browser) {
 		case "chrome":
 			// Create driver
-			System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver");
+			System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver.exe");
 			driver = new ChromeDriver();
 			break;
 		case "firefox":
 			// Create driver
-			System.setProperty("webdriver.gecko.driver", "src/main/resources/geckodriver");
+			System.setProperty("webdriver.gecko.driver", "src/main/resources/geckodriver.");
 			driver = new FirefoxDriver();
 			break;
 
