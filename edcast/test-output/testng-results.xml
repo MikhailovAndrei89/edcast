@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="13636" started-at="2019-03-17T19:35:22Z" finished-at="2019-03-17T19:35:36Z">
+  <suite name="FirstTests" duration-ms="52556" started-at="2019-03-19T06:47:51Z" finished-at="2019-03-19T06:48:43Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="13636" started-at="2019-03-17T19:35:22Z" finished-at="2019-03-17T19:35:36Z">
-      <class name="com.edcast.PositiveTestsEdcast">
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.edcast.PositiveTestsEdcast@5e5792a0]" name="setUp" is-config="true" duration-ms="4781" started-at="2019-03-17T19:35:22Z" finished-at="2019-03-17T19:35:27Z">
+    <test name="NegativeTestsEdcast-CH" duration-ms="17315" started-at="2019-03-19T06:47:51Z" finished-at="2019-03-19T06:48:08Z">
+      <class name="com.edcast.NegativeTestsEdcast">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.edcast.NegativeTestsEdcast@1bce4f0a]" name="setUp" is-config="true" duration-ms="5784" started-at="2019-03-19T06:47:51Z" finished-at="2019-03-19T06:47:57Z">
           <params>
             <param index="0">
               <value>
@@ -18,7 +18,72 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="correctUserName(java.lang.String, java.lang.String)[pri:0, instance:com.edcast.PositiveTestsEdcast@5e5792a0]" name="correctUserName" duration-ms="8191" started-at="2019-03-17T19:35:27Z" finished-at="2019-03-17T19:35:35Z">
+        <test-method status="PASS" signature="incorrectUserName(java.lang.String, java.lang.String)[pri:0, instance:com.edcast.NegativeTestsEdcast@1bce4f0a]" name="incorrectUserName" duration-ms="10671" started-at="2019-03-19T06:47:57Z" finished-at="2019-03-19T06:48:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[fortest.andrew12@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Aa8452006027?]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- incorrectUserName -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.edcast.NegativeTestsEdcast@1bce4f0a]" name="tearDown" is-config="true" duration-ms="819" started-at="2019-03-19T06:48:07Z" finished-at="2019-03-19T06:48:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.edcast.NegativeTestsEdcast -->
+    </test> <!-- NegativeTestsEdcast-CH -->
+    <test name="ForgotPasswordEdcast-CH" duration-ms="19059" started-at="2019-03-19T06:48:08Z" finished-at="2019-03-19T06:48:27Z">
+      <class name="com.edcast.ForgotPasswordEdcast">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.edcast.ForgotPasswordEdcast@4f7d0008]" name="setUp" is-config="true" duration-ms="4499" started-at="2019-03-19T06:48:08Z" finished-at="2019-03-19T06:48:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="logInTest(java.lang.String)[pri:0, instance:com.edcast.ForgotPasswordEdcast@4f7d0008]" name="logInTest" duration-ms="13806" started-at="2019-03-19T06:48:13Z" finished-at="2019-03-19T06:48:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[fortest.andrew12@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.edcast.ForgotPasswordEdcast@4f7d0008]" name="tearDown" is-config="true" duration-ms="725" started-at="2019-03-19T06:48:27Z" finished-at="2019-03-19T06:48:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.edcast.ForgotPasswordEdcast -->
+    </test> <!-- ForgotPasswordEdcast-CH -->
+    <test name="PositiveTestsEdcast-CH" duration-ms="15991" started-at="2019-03-19T06:48:27Z" finished-at="2019-03-19T06:48:43Z">
+      <class name="com.edcast.PositiveTestsEdcast">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.edcast.PositiveTestsEdcast@2f686d1f]" name="setUp" is-config="true" duration-ms="4473" started-at="2019-03-19T06:48:27Z" finished-at="2019-03-19T06:48:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="correctUserName(java.lang.String, java.lang.String)[pri:0, instance:com.edcast.PositiveTestsEdcast@2f686d1f]" name="correctUserName" duration-ms="10771" started-at="2019-03-19T06:48:32Z" finished-at="2019-03-19T06:48:43Z">
           <params>
             <param index="0">
               <value>
@@ -34,11 +99,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- correctUserName -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.edcast.PositiveTestsEdcast@5e5792a0]" name="tearDown" is-config="true" duration-ms="642" started-at="2019-03-17T19:35:35Z" finished-at="2019-03-17T19:35:36Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.edcast.PositiveTestsEdcast@2f686d1f]" name="tearDown" is-config="true" duration-ms="739" started-at="2019-03-19T06:48:43Z" finished-at="2019-03-19T06:48:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.edcast.PositiveTestsEdcast -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- PositiveTestsEdcast-CH -->
+  </suite> <!-- FirstTests -->
 </testng-results>

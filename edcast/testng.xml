@@ -1,6 +1,11 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
   
 <suite name="FirstTests" verbose="1" >
+
+<listeners>
+<listener class-name="com.edcast.ExtentReportListener.ExtentReportListener" /> 
+
+</listeners>
   
   <test name="NegativeTestsEdcast-CH">
   <parameter name ="browser" value ="chrome" />
