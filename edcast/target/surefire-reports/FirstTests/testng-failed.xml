@@ -1,20 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [FirstTests]">
-  <test thread-count="5" verbose="0" name="ForgotPasswordEdcast-CH(failed)">
+  <test thread-count="5" verbose="0" name="NegativeTestsEdcast-FF(failed)">
+    <parameter name="password" value="Aa8452006027?"/>
     <parameter name="browser" value="chrome"/>
     <parameter name="username" value="fortest.andrew12@gmail.com"/>
     <classes>
-      <class name="com.edcast.ForgotPasswordEdcast">
+      <class name="com.edcast.NegativeTestsEdcast">
         <methods>
           <include name="setUp"/>
           <include name="tearDown"/>
-          <include name="logInTest" invocation-numbers="0"/>
+          <include name="incorrectUserName" invocation-numbers="0"/>
         </methods>
-      </class> <!-- com.edcast.ForgotPasswordEdcast -->
+      </class> <!-- com.edcast.NegativeTestsEdcast -->
     </classes>
-  </test> <!-- ForgotPasswordEdcast-CH(failed) -->
-  <test thread-count="5" verbose="0" name="PositiveTestsEdcast-CH(failed)">
+  </test> <!-- NegativeTestsEdcast-FF(failed) -->
+  <test thread-count="5" verbose="0" name="PositiveTestsEdcast-FF(failed)">
     <parameter name="password" value="Aa8452006027?"/>
     <parameter name="browser" value="chrome"/>
     <parameter name="username" value="fortest.andrew@gmail.com"/>
@@ -27,5 +28,5 @@
         </methods>
       </class> <!-- com.edcast.PositiveTestsEdcast -->
     </classes>
-  </test> <!-- PositiveTestsEdcast-CH(failed) -->
+  </test> <!-- PositiveTestsEdcast-FF(failed) -->
 </suite> <!-- Failed suite [FirstTests] -->

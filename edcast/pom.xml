@@ -53,7 +53,7 @@
 
 	<profiles>
 		<profile>
-			<id>testng_1r</id>
+			<id>testng_1</id>
 			<build>
 				<plugins>
 					<!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-surefire-plugin -->

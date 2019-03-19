@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="2" ignored="0" total="3" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="FirstTests" duration-ms="37158" started-at="2019-03-17T20:05:27Z" finished-at="2019-03-17T20:06:04Z">
+  <suite name="FirstTests" duration-ms="38002" started-at="2019-03-19T15:54:55Z" finished-at="2019-03-19T15:55:33Z">
     <groups>
     </groups>
-    <test name="NegativeTestsEdcast-CH" duration-ms="17754" started-at="2019-03-17T20:05:27Z" finished-at="2019-03-17T20:05:45Z">
+    <test name="NegativeTestsEdcast-FF" duration-ms="12127" started-at="2019-03-19T15:54:55Z" finished-at="2019-03-19T15:55:07Z">
       <class name="com.edcast.NegativeTestsEdcast">
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.edcast.NegativeTestsEdcast@614c5515]" name="setUp" is-config="true" duration-ms="4684" started-at="2019-03-17T20:05:27Z" finished-at="2019-03-17T20:05:32Z">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.edcast.NegativeTestsEdcast@4909b8da]" name="setUp" is-config="true" duration-ms="5821" started-at="2019-03-19T15:54:55Z" finished-at="2019-03-19T15:55:01Z">
           <params>
             <param index="0">
               <value>
@@ -18,7 +18,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="incorrectUserName(java.lang.String, java.lang.String)[pri:0, instance:com.edcast.NegativeTestsEdcast@614c5515]" name="incorrectUserName" duration-ms="12016" started-at="2019-03-17T20:05:32Z" finished-at="2019-03-17T20:05:44Z">
+        <test-method status="FAIL" signature="incorrectUserName(java.lang.String, java.lang.String)[pri:0, instance:com.edcast.NegativeTestsEdcast@4909b8da]" name="incorrectUserName" duration-ms="5557" started-at="2019-03-19T15:55:01Z" finished-at="2019-03-19T15:55:06Z">
           <params>
             <param index="0">
               <value>
@@ -31,62 +31,32 @@
               </value>
             </param>
           </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- incorrectUserName -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.edcast.NegativeTestsEdcast@614c5515]" name="tearDown" is-config="true" duration-ms="1034" started-at="2019-03-17T20:05:44Z" finished-at="2019-03-17T20:05:45Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.edcast.NegativeTestsEdcast -->
-    </test> <!-- NegativeTestsEdcast-CH -->
-    <test name="ForgotPasswordEdcast-CH" duration-ms="9360" started-at="2019-03-17T20:05:45Z" finished-at="2019-03-17T20:05:54Z">
-      <class name="com.edcast.ForgotPasswordEdcast">
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.edcast.ForgotPasswordEdcast@61dc03ce]" name="setUp" is-config="true" duration-ms="4145" started-at="2019-03-17T20:05:45Z" finished-at="2019-03-17T20:05:49Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="logInTest(java.lang.String)[pri:0, instance:com.edcast.ForgotPasswordEdcast@61dc03ce]" name="logInTest" duration-ms="4530" started-at="2019-03-17T20:05:49Z" finished-at="2019-03-17T20:05:53Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[fortest.andrew12@gmail.com]]>
-              </value>
-            </param>
-          </params>
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(text(),'Forgot Password?')]"}
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//input[contains(@id,'undefined-namedomaincom')]"}
   (Session info: chrome=73.0.3683.75)
   (Driver info: chromedriver=2.45.615291 (ec3682e3c9061c10f26ea9e5cdcf3c53f3f74387),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-4918ART', ip: '192.168.0.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+System info: host: 'DESKTOP-4918ART', ip: '192.168.0.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.45.615291 (ec3682e3c9061c..., userDataDir: C:\Users\Andrew\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:62086}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.75, webStorageEnabled: true}
-Session ID: 10362330c7b8778c10298af7136711dc
-*** Element info: {Using=xpath, value=//*[contains(text(),'Forgot Password?')]}]]>
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.45.615291 (ec3682e3c9061c..., userDataDir: C:\Users\Andrew\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:52714}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.75, webStorageEnabled: true}
+Session ID: dd3fc082bbc8282c193ed835ec9c86fc
+*** Element info: {Using=xpath, value=//input[contains(@id,'undefined-namedomaincom')]}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(text(),'Forgot Password?')]"}
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[contains(@id,'undefined-namedomaincom')]"}
   (Session info: chrome=73.0.3683.75)
   (Driver info: chromedriver=2.45.615291 (ec3682e3c9061c10f26ea9e5cdcf3c53f3f74387),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-4918ART', ip: '192.168.0.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+System info: host: 'DESKTOP-4918ART', ip: '192.168.0.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.45.615291 (ec3682e3c9061c..., userDataDir: C:\Users\Andrew\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:62086}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.75, webStorageEnabled: true}
-Session ID: 10362330c7b8778c10298af7136711dc
-*** Element info: {Using=xpath, value=//*[contains(text(),'Forgot Password?')]}
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.45.615291 (ec3682e3c9061c..., userDataDir: C:\Users\Andrew\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:52714}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.75, webStorageEnabled: true}
+Session ID: dd3fc082bbc8282c193ed835ec9c86fc
+*** Element info: {Using=xpath, value=//input[contains(@id,'undefined-namedomaincom')]}
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -103,7 +73,7 @@ at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:3
 at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
 at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at com.edcast.ForgotPasswordEdcast.logInTest(ForgotPasswordEdcast.java:62)
+at com.edcast.NegativeTestsEdcast.incorrectUserName(NegativeTestsEdcast.java:59)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -138,16 +108,16 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
           </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- logInTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.edcast.ForgotPasswordEdcast@61dc03ce]" name="tearDown" is-config="true" duration-ms="678" started-at="2019-03-17T20:05:53Z" finished-at="2019-03-17T20:05:54Z">
+        </test-method> <!-- incorrectUserName -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.edcast.NegativeTestsEdcast@4909b8da]" name="tearDown" is-config="true" duration-ms="681" started-at="2019-03-19T15:55:07Z" finished-at="2019-03-19T15:55:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.edcast.ForgotPasswordEdcast -->
-    </test> <!-- ForgotPasswordEdcast-CH -->
-    <test name="PositiveTestsEdcast-CH" duration-ms="9978" started-at="2019-03-17T20:05:54Z" finished-at="2019-03-17T20:06:04Z">
-      <class name="com.edcast.PositiveTestsEdcast">
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.edcast.PositiveTestsEdcast@26f67b76]" name="setUp" is-config="true" duration-ms="4128" started-at="2019-03-17T20:05:54Z" finished-at="2019-03-17T20:05:58Z">
+      </class> <!-- com.edcast.NegativeTestsEdcast -->
+    </test> <!-- NegativeTestsEdcast-FF -->
+    <test name="ForgotPasswordEdcast-FF" duration-ms="15318" started-at="2019-03-19T15:55:07Z" finished-at="2019-03-19T15:55:23Z">
+      <class name="com.edcast.ForgotPasswordEdcast">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.edcast.ForgotPasswordEdcast@59e84876]" name="setUp" is-config="true" duration-ms="4748" started-at="2019-03-19T15:55:07Z" finished-at="2019-03-19T15:55:12Z">
           <params>
             <param index="0">
               <value>
@@ -158,7 +128,37 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="correctUserName(java.lang.String, java.lang.String)[pri:0, instance:com.edcast.PositiveTestsEdcast@26f67b76]" name="correctUserName" duration-ms="5001" started-at="2019-03-17T20:05:58Z" finished-at="2019-03-17T20:06:03Z">
+        <test-method status="PASS" signature="logInTest(java.lang.String)[pri:0, instance:com.edcast.ForgotPasswordEdcast@59e84876]" name="logInTest" duration-ms="9885" started-at="2019-03-19T15:55:12Z" finished-at="2019-03-19T15:55:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[fortest.andrew12@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.edcast.ForgotPasswordEdcast@59e84876]" name="tearDown" is-config="true" duration-ms="683" started-at="2019-03-19T15:55:22Z" finished-at="2019-03-19T15:55:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.edcast.ForgotPasswordEdcast -->
+    </test> <!-- ForgotPasswordEdcast-FF -->
+    <test name="PositiveTestsEdcast-FF" duration-ms="10335" started-at="2019-03-19T15:55:23Z" finished-at="2019-03-19T15:55:33Z">
+      <class name="com.edcast.PositiveTestsEdcast">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.edcast.PositiveTestsEdcast@b97c004]" name="setUp" is-config="true" duration-ms="4638" started-at="2019-03-19T15:55:23Z" finished-at="2019-03-19T15:55:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="correctUserName(java.lang.String, java.lang.String)[pri:0, instance:com.edcast.PositiveTestsEdcast@b97c004]" name="correctUserName" duration-ms="4969" started-at="2019-03-19T15:55:27Z" finished-at="2019-03-19T15:55:32Z">
           <params>
             <param index="0">
               <value>
@@ -179,10 +179,10 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
 Command duration or timeout: 0 milliseconds
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-4918ART', ip: '192.168.0.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+System info: host: 'DESKTOP-4918ART', ip: '192.168.0.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.45.615291 (ec3682e3c9061c..., userDataDir: C:\Users\Andrew\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:62120}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.75, webStorageEnabled: true}
-Session ID: dd7315e47882f4cb7db100bada943096
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.45.615291 (ec3682e3c9061c..., userDataDir: C:\Users\Andrew\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:52814}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.75, webStorageEnabled: true}
+Session ID: d8e0b35bd513d5f842f5bc317cc5d8c5
 *** Element info: {Using=xpath, value=//input[contains(@id,'undefined-namedomaincom')]}]]>
             </message>
             <full-stacktrace>
@@ -192,10 +192,10 @@ Session ID: dd7315e47882f4cb7db100bada943096
 Command duration or timeout: 0 milliseconds
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-4918ART', ip: '192.168.0.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+System info: host: 'DESKTOP-4918ART', ip: '192.168.0.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.45.615291 (ec3682e3c9061c..., userDataDir: C:\Users\Andrew\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:62120}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.75, webStorageEnabled: true}
-Session ID: dd7315e47882f4cb7db100bada943096
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.45.615291 (ec3682e3c9061c..., userDataDir: C:\Users\Andrew\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:52814}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.75, webStorageEnabled: true}
+Session ID: d8e0b35bd513d5f842f5bc317cc5d8c5
 *** Element info: {Using=xpath, value=//input[contains(@id,'undefined-namedomaincom')]}
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -249,11 +249,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- correctUserName -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.edcast.PositiveTestsEdcast@26f67b76]" name="tearDown" is-config="true" duration-ms="847" started-at="2019-03-17T20:06:03Z" finished-at="2019-03-17T20:06:04Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.edcast.PositiveTestsEdcast@b97c004]" name="tearDown" is-config="true" duration-ms="721" started-at="2019-03-19T15:55:32Z" finished-at="2019-03-19T15:55:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.edcast.PositiveTestsEdcast -->
-    </test> <!-- PositiveTestsEdcast-CH -->
+    </test> <!-- PositiveTestsEdcast-FF -->
   </suite> <!-- FirstTests -->
 </testng-results>
