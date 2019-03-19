@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="SecondTests" verbose="1" >
+  <listeners>
+	<listener class-name="com.edcast.ExtentReportListener.ExtentReportListener" /> 
+  </listeners>
+  <test name="NegativeTestsEdcast-CH">
+  <parameter name ="browser" value ="chrome" />
+  <parameter name ="username" value ="fortest.andrew12@gmail.com" />
+  <parameter name ="password" value ="Aa8452006027?" /> 
+    <classes>
+      <class name="com.edcast.NegativeTestsEdcast"/>
+    </classes>
+  </test>
+ 
+
+</suite>
