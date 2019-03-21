@@ -15,6 +15,19 @@
       </class> <!-- com.edcast.NegativeTestsEdcast -->
     </classes>
   </test> <!-- NegativeTestsEdcast-FF(failed) -->
+  <test thread-count="5" verbose="0" name="ForgotPasswordEdcast-FF(failed)">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="username" value="fortest.andrew12@gmail.com"/>
+    <classes>
+      <class name="com.edcast.ForgotPasswordEdcast">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="logInTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.edcast.ForgotPasswordEdcast -->
+    </classes>
+  </test> <!-- ForgotPasswordEdcast-FF(failed) -->
   <test thread-count="5" verbose="0" name="PositiveTestsEdcast-FF(failed)">
     <parameter name="password" value="Aa8452006027?"/>
     <parameter name="browser" value="chrome"/>

@@ -1,28 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [FirstTests]">
-  <test name="PositeveTestsEdcast(failed)">
+  <listeners>
+    <listener class-name="com.edcast.ExtentReportListener.ExtentReportListener"/>
+  </listeners>
+  <test thread-count="5" name="NegativeTestsEdcast-CH(failed)">
     <parameter name="password" value="Aa8452006027?"/>
     <parameter name="browser" value="chrome"/>
-    <parameter name="username" value="fortest.andrew@gmail.com"/>
+    <parameter name="username" value="fortest.andrew12@gmail.com"/>
     <classes>
-      <class name="com.edcast.ForgotPasswordEdcast">
-        <methods>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- com.edcast.ForgotPasswordEdcast -->
       <class name="com.edcast.NegativeTestsEdcast">
         <methods>
           <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="incorrectUserName" invocation-numbers="0"/>
         </methods>
       </class> <!-- com.edcast.NegativeTestsEdcast -->
-      <class name="com.edcast.PositiveTestsEdcast">
-        <methods>
-          <include name="setUp"/>
-          <include name="logInTest" invocation-numbers="0"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- com.edcast.PositiveTestsEdcast -->
     </classes>
-  </test> <!-- PositeveTestsEdcast(failed) -->
+  </test> <!-- NegativeTestsEdcast-CH(failed) -->
 </suite> <!-- Failed suite [FirstTests] -->
