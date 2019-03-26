@@ -24,7 +24,7 @@ import com.relevantcodes.extentreports.LogStatus;
 		@Override
 		public void generateReport(List<XmlSuite> xmlSuites, List<ISuite> suites,
 				String outputDirectory) {
-			extent = new ExtentReports("\reports" + File.separator
+			extent = new ExtentReports("\\reports" + File.separator
 					+ "Extent.html", true);
 			
 
