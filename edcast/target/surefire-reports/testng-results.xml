@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="FirstTests" duration-ms="46304" started-at="2019-03-21T07:33:29Z" finished-at="2019-03-21T07:34:15Z">
+  <suite name="FirstTests" duration-ms="49954" started-at="2019-03-21T07:38:42Z" finished-at="2019-03-21T07:39:32Z">
     <groups>
     </groups>
-    <test name="NegativeTestsEdcast-FF" duration-ms="15614" started-at="2019-03-21T07:33:29Z" finished-at="2019-03-21T07:33:45Z">
+    <test name="NegativeTestsEdcast-FF" duration-ms="16810" started-at="2019-03-21T07:38:42Z" finished-at="2019-03-21T07:38:59Z">
       <class name="com.edcast.NegativeTestsEdcast">
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.edcast.NegativeTestsEdcast@4909b8da]" name="setUp" is-config="true" duration-ms="5283" started-at="2019-03-21T07:33:29Z" finished-at="2019-03-21T07:33:34Z">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.edcast.NegativeTestsEdcast@4909b8da]" name="setUp" is-config="true" duration-ms="5658" started-at="2019-03-21T07:38:42Z" finished-at="2019-03-21T07:38:48Z">
           <params>
             <param index="0">
               <value>
@@ -18,7 +18,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="incorrectUserName(java.lang.String, java.lang.String)[pri:0, instance:com.edcast.NegativeTestsEdcast@4909b8da]" name="incorrectUserName" duration-ms="9545" started-at="2019-03-21T07:33:34Z" finished-at="2019-03-21T07:33:44Z">
+        <test-method status="PASS" signature="incorrectUserName(java.lang.String, java.lang.String)[pri:0, instance:com.edcast.NegativeTestsEdcast@4909b8da]" name="incorrectUserName" duration-ms="10375" started-at="2019-03-21T07:38:48Z" finished-at="2019-03-21T07:38:58Z">
           <params>
             <param index="0">
               <value>
@@ -34,15 +34,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- incorrectUserName -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.edcast.NegativeTestsEdcast@4909b8da]" name="tearDown" is-config="true" duration-ms="753" started-at="2019-03-21T07:33:44Z" finished-at="2019-03-21T07:33:45Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.edcast.NegativeTestsEdcast@4909b8da]" name="tearDown" is-config="true" duration-ms="732" started-at="2019-03-21T07:38:58Z" finished-at="2019-03-21T07:38:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.edcast.NegativeTestsEdcast -->
     </test> <!-- NegativeTestsEdcast-FF -->
-    <test name="ForgotPasswordEdcast-FF" duration-ms="15352" started-at="2019-03-21T07:33:45Z" finished-at="2019-03-21T07:34:00Z">
+    <test name="ForgotPasswordEdcast-FF" duration-ms="17454" started-at="2019-03-21T07:38:59Z" finished-at="2019-03-21T07:39:17Z">
       <class name="com.edcast.ForgotPasswordEdcast">
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.edcast.ForgotPasswordEdcast@59e84876]" name="setUp" is-config="true" duration-ms="4327" started-at="2019-03-21T07:33:45Z" finished-at="2019-03-21T07:33:49Z">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.edcast.ForgotPasswordEdcast@59e84876]" name="setUp" is-config="true" duration-ms="4511" started-at="2019-03-21T07:38:59Z" finished-at="2019-03-21T07:39:04Z">
           <params>
             <param index="0">
               <value>
@@ -53,7 +53,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="logInTest(java.lang.String)[pri:0, instance:com.edcast.ForgotPasswordEdcast@59e84876]" name="logInTest" duration-ms="10240" started-at="2019-03-21T07:33:49Z" finished-at="2019-03-21T07:33:59Z">
+        <test-method status="PASS" signature="logInTest(java.lang.String)[pri:0, instance:com.edcast.ForgotPasswordEdcast@59e84876]" name="logInTest" duration-ms="11807" started-at="2019-03-21T07:39:04Z" finished-at="2019-03-21T07:39:16Z">
           <params>
             <param index="0">
               <value>
@@ -64,15 +64,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logInTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.edcast.ForgotPasswordEdcast@59e84876]" name="tearDown" is-config="true" duration-ms="784" started-at="2019-03-21T07:33:59Z" finished-at="2019-03-21T07:34:00Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.edcast.ForgotPasswordEdcast@59e84876]" name="tearDown" is-config="true" duration-ms="1134" started-at="2019-03-21T07:39:16Z" finished-at="2019-03-21T07:39:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.edcast.ForgotPasswordEdcast -->
     </test> <!-- ForgotPasswordEdcast-FF -->
-    <test name="PositiveTestsEdcast-FF" duration-ms="15245" started-at="2019-03-21T07:34:00Z" finished-at="2019-03-21T07:34:15Z">
+    <test name="PositiveTestsEdcast-FF" duration-ms="15567" started-at="2019-03-21T07:39:17Z" finished-at="2019-03-21T07:39:32Z">
       <class name="com.edcast.PositiveTestsEdcast">
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.edcast.PositiveTestsEdcast@b97c004]" name="setUp" is-config="true" duration-ms="4277" started-at="2019-03-21T07:34:00Z" finished-at="2019-03-21T07:34:04Z">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.edcast.PositiveTestsEdcast@b97c004]" name="setUp" is-config="true" duration-ms="4471" started-at="2019-03-21T07:39:17Z" finished-at="2019-03-21T07:39:21Z">
           <params>
             <param index="0">
               <value>
@@ -83,7 +83,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="correctUserName(java.lang.String, java.lang.String)[pri:0, instance:com.edcast.PositiveTestsEdcast@b97c004]" name="correctUserName" duration-ms="10247" started-at="2019-03-21T07:34:04Z" finished-at="2019-03-21T07:34:14Z">
+        <test-method status="PASS" signature="correctUserName(java.lang.String, java.lang.String)[pri:0, instance:com.edcast.PositiveTestsEdcast@b97c004]" name="correctUserName" duration-ms="10359" started-at="2019-03-21T07:39:21Z" finished-at="2019-03-21T07:39:32Z">
           <params>
             <param index="0">
               <value>
@@ -99,7 +99,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- correctUserName -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.edcast.PositiveTestsEdcast@b97c004]" name="tearDown" is-config="true" duration-ms="720" started-at="2019-03-21T07:34:14Z" finished-at="2019-03-21T07:34:15Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.edcast.PositiveTestsEdcast@b97c004]" name="tearDown" is-config="true" duration-ms="735" started-at="2019-03-21T07:39:32Z" finished-at="2019-03-21T07:39:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
