@@ -19,7 +19,7 @@ public class PositiveTestsEdcast {
 
 	@Parameters({ "browser" })
 	@BeforeMethod
-	protected void setUp(@Optional("chrome") String browser) 
+	protected void setUp(@Optional("chrome") String browser) {
 		System.out.println("Create driver " + browser);
 
 		switch (browser) {
