@@ -1,0 +1,2 @@
+Hello, now i want to merge branches
+hi from tree
