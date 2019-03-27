@@ -1,3 +1,4 @@
 Hello, now i want to merge branches
 hi from tree
 hi from QA
+hi from master

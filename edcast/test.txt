@@ -1,1 +1,2 @@
 Hello from QA branch small qa
+Hello from master branch
