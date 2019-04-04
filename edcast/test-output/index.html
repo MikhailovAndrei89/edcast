@@ -102,17 +102,17 @@
                     <div class="method-list-content passed suite-FirstTests">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-FirstTests" title="com.edcast.PositiveTestsEdcast" hash-for-method="correctUserName(fortest.andrew@gmail.com, Aa8452006027?)">correctUserName(fortest.andrew@gmail.com, Aa8452006027?)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-FirstTests" title="com.edcast.loginpage.PositiveTestsEdcastLogIn" hash-for-method="correctUserName(fortest.andrew@gmail.com, Aa8452006027?)">correctUserName(fortest.andrew@gmail.com, Aa8452006027?)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-FirstTests" title="com.edcast.NegativeTestsEdcast" hash-for-method="incorrectUserName(fortest.andrew12@gmail.com, Aa8452006027?)">incorrectUserName(fortest.andrew12@gmail.com, Aa8452006027?)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-FirstTests" title="com.edcast.loginpage.NegativeTestsEdcastLogIn" hash-for-method="incorrectUserName(fortest.andrew12@gmail.com, Aa8452006027?)">incorrectUserName(fortest.andrew12@gmail.com, Aa8452006027?)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-FirstTests" title="com.edcast.ForgotPasswordEdcast" hash-for-method="logInTest(fortest.andrew12@gmail.com)">logInTest(fortest.andrew12@gmail.com)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-FirstTests" title="com.edcast.loginpage.ForgotPasswordEdcastLogIn" hash-for-method="logInTest(fortest.andrew12@gmail.com)">logInTest(fortest.andrew12@gmail.com)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-FirstTests -->
@@ -130,7 +130,7 @@
           <div class="suite-FirstTests-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.edcast.NegativeTestsEdcast</span>
+              <span class="class-name">com.edcast.loginpage.NegativeTestsEdcastLogIn</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
@@ -146,7 +146,7 @@
           <div class="suite-FirstTests-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.edcast.ForgotPasswordEdcast</span>
+              <span class="class-name">com.edcast.loginpage.ForgotPasswordEdcastLogIn</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
@@ -162,7 +162,7 @@
           <div class="suite-FirstTests-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.edcast.PositiveTestsEdcast</span>
+              <span class="class-name">com.edcast.loginpage.PositiveTestsEdcastLogIn</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
@@ -193,14 +193,14 @@
     &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
     &lt;parameter name=&quot;username&quot; value=&quot;fortest.andrew12@gmail.com&quot;/&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.edcast.NegativeTestsEdcast&quot;/&gt;
+      &lt;class name=&quot;com.edcast.loginpage.NegativeTestsEdcastLogIn&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- NegativeTestsEdcast-CH --&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;ForgotPasswordEdcast-CH&quot;&gt;
     &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
     &lt;parameter name=&quot;username&quot; value=&quot;fortest.andrew12@gmail.com&quot;/&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.edcast.ForgotPasswordEdcast&quot;/&gt;
+      &lt;class name=&quot;com.edcast.loginpage.ForgotPasswordEdcastLogIn&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- ForgotPasswordEdcast-CH --&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;PositiveTestsEdcast-CH&quot;&gt;
@@ -208,7 +208,7 @@
     &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
     &lt;parameter name=&quot;username&quot; value=&quot;fortest.andrew@gmail.com&quot;/&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.edcast.PositiveTestsEdcast&quot;/&gt;
+      &lt;class name=&quot;com.edcast.loginpage.PositiveTestsEdcastLogIn&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- PositiveTestsEdcast-CH --&gt;
 &lt;/suite&gt; &lt;!-- FirstTests --&gt;
@@ -256,17 +256,17 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(3);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'incorrectUserName')
-data.setCell(0, 2, 'com.edcast.NegativeTestsEdcast')
-data.setCell(0, 3, 9861);
+data.setCell(0, 1, 'logInTest')
+data.setCell(0, 2, 'com.edcast.loginpage.ForgotPasswordEdcastLogIn')
+data.setCell(0, 3, 9281);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'logInTest')
-data.setCell(1, 2, 'com.edcast.ForgotPasswordEdcast')
-data.setCell(1, 3, 8879);
+data.setCell(1, 1, 'correctUserName')
+data.setCell(1, 2, 'com.edcast.loginpage.PositiveTestsEdcastLogIn')
+data.setCell(1, 3, 8940);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'correctUserName')
-data.setCell(2, 2, 'com.edcast.PositiveTestsEdcast')
-data.setCell(2, 3, 8627);
+data.setCell(2, 1, 'incorrectUserName')
+data.setCell(2, 2, 'com.edcast.loginpage.NegativeTestsEdcastLogIn')
+data.setCell(2, 3, 8924);
 window.suiteTableData['FirstTests']= { tableData: data, tableDiv: 'times-div-FirstTests'}
 return data;
 }
@@ -297,48 +297,48 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.edcast.NegativeTestsEdcast</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.edcast.loginpage.NegativeTestsEdcastLogIn</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp(chrome)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">incorrectUserName(fortest.andrew12@gmail.com, Aa8452006027?)</span>
-                <span class="method-start">5386 ms</span>
+                <span class="method-start">3272 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">15251 ms</span>
+                <span class="method-start">12198 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">com.edcast.ForgotPasswordEdcast</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.edcast.loginpage.ForgotPasswordEdcastLogIn</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp(chrome)</span>
-                <span class="method-start">16032 ms</span>
+                <span class="method-start">12953 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">logInTest(fortest.andrew12@gmail.com)</span>
-                <span class="method-start">20286 ms</span>
+                <span class="method-start">15365 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">29166 ms</span>
+                <span class="method-start">24647 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">com.edcast.PositiveTestsEdcast</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.edcast.loginpage.PositiveTestsEdcastLogIn</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp(chrome)</span>
-                <span class="method-start">29930 ms</span>
+                <span class="method-start">25384 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">correctUserName(fortest.andrew@gmail.com, Aa8452006027?)</span>
-                <span class="method-start">34269 ms</span>
+                <span class="method-start">27857 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">42897 ms</span>
+                <span class="method-start">36799 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

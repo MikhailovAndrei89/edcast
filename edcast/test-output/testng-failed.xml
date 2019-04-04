@@ -4,18 +4,17 @@
   <listeners>
     <listener class-name="com.edcast.ExtentReportListener.ExtentReportListener"/>
   </listeners>
-  <test thread-count="5" name="NegativeTestsEdcast-CH(failed)">
-    <parameter name="password" value="Aa8452006027?"/>
+  <test thread-count="5" name="ForgotPasswordEdcast-CH(failed)">
     <parameter name="browser" value="chrome"/>
     <parameter name="username" value="fortest.andrew12@gmail.com"/>
     <classes>
-      <class name="com.edcast.NegativeTestsEdcast">
+      <class name="com.edcast.loginpage.ForgotPasswordEdcastLogIn">
         <methods>
           <include name="setUp"/>
+          <include name="logInTest" invocation-numbers="0"/>
           <include name="tearDown"/>
-          <include name="incorrectUserName" invocation-numbers="0"/>
         </methods>
-      </class> <!-- com.edcast.NegativeTestsEdcast -->
+      </class> <!-- com.edcast.loginpage.ForgotPasswordEdcastLogIn -->
     </classes>
-  </test> <!-- NegativeTestsEdcast-CH(failed) -->
+  </test> <!-- ForgotPasswordEdcast-CH(failed) -->
 </suite> <!-- Failed suite [FirstTests] -->

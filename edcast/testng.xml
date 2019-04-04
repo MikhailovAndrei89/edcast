@@ -12,7 +12,7 @@
   <parameter name ="username" value ="fortest.andrew12@gmail.com" />
   <parameter name ="password" value ="Aa8452006027?" /> 
     <classes>
-      <class name="com.edcast.NegativeTestsEdcast"/>
+      <class name="com.edcast.loginpage.NegativeTestsEdcastLogIn"/>
     </classes>
   </test>
   
@@ -20,7 +20,7 @@
   <parameter name ="browser" value ="chrome" />
   <parameter name ="username" value ="fortest.andrew12@gmail.com" />
     <classes>
-      <class name="com.edcast.ForgotPasswordEdcast"/>
+      <class name="com.edcast.loginpage.ForgotPasswordEdcastLogIn"/>
     </classes>
   </test>
   
@@ -29,7 +29,7 @@
   <parameter name ="username" value ="fortest.andrew@gmail.com" />
   <parameter name ="password" value ="Aa8452006027?" /> 
     <classes>
-       <class name="com.edcast.PositiveTestsEdcast" />
+       <class name="com.edcast.loginpage.PositiveTestsEdcastLogIn" />
     </classes>
   </test>
 
