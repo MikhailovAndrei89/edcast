@@ -4,6 +4,20 @@
   <listeners>
     <listener class-name="com.edcast.ExtentReportListener.ExtentReportListener"/>
   </listeners>
+  <test thread-count="5" name="NegativeTestsEdcast-CH(failed)">
+    <parameter name="password" value="Aa8452006027?"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="username" value="fortest.andrew12@gmail.com"/>
+    <classes>
+      <class name="com.edcast.loginpage.NegativeTestsEdcastLogIn">
+        <methods>
+          <include name="incorrectUserName" invocation-numbers="0"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.edcast.loginpage.NegativeTestsEdcastLogIn -->
+    </classes>
+  </test> <!-- NegativeTestsEdcast-CH(failed) -->
   <test thread-count="5" name="ForgotPasswordEdcast-CH(failed)">
     <parameter name="browser" value="chrome"/>
     <parameter name="username" value="fortest.andrew12@gmail.com"/>
@@ -11,10 +25,24 @@
       <class name="com.edcast.loginpage.ForgotPasswordEdcastLogIn">
         <methods>
           <include name="setUp"/>
-          <include name="logInTest" invocation-numbers="0"/>
           <include name="tearDown"/>
+          <include name="logInTest" invocation-numbers="0"/>
         </methods>
       </class> <!-- com.edcast.loginpage.ForgotPasswordEdcastLogIn -->
     </classes>
   </test> <!-- ForgotPasswordEdcast-CH(failed) -->
+  <test thread-count="5" name="PositiveTestsEdcast-CH(failed)">
+    <parameter name="password" value="Aa8452006027?"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="username" value="fortest.andrew@gmail.com"/>
+    <classes>
+      <class name="com.edcast.loginpage.PositiveTestsEdcastLogIn">
+        <methods>
+          <include name="correctUserName" invocation-numbers="0"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.edcast.loginpage.PositiveTestsEdcastLogIn -->
+    </classes>
+  </test> <!-- PositiveTestsEdcast-CH(failed) -->
 </suite> <!-- Failed suite [FirstTests] -->

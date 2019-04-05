@@ -1,30 +1,35 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
   
 <suite name="FirstTests" verbose="1" >
+
+<listeners>
+<listener class-name="com.edcast.ExtentReportListener.ExtentReportListener" /> 
+
+</listeners>
   
-  <test name="NegativeTestsEdcast-FF">
+  <test name="NegativeTestsEdcast-CH">
   <parameter name ="browser" value ="chrome" />
   <parameter name ="username" value ="fortest.andrew12@gmail.com" />
   <parameter name ="password" value ="Aa8452006027?" /> 
     <classes>
-      <class name="com.edcast.NegativeTestsEdcast"/>
+      <class name="com.edcast.loginpage.NegativeTestsEdcastLogIn"/>
     </classes>
   </test>
   
-  <test name="ForgotPasswordEdcast-FF">
+  <test name="ForgotPasswordEdcast-CH">
   <parameter name ="browser" value ="chrome" />
   <parameter name ="username" value ="fortest.andrew12@gmail.com" />
     <classes>
-      <class name="com.edcast.ForgotPasswordEdcast"/>
+      <class name="com.edcast.loginpage.ForgotPasswordEdcastLogIn"/>
     </classes>
   </test>
   
-  <test name="PositiveTestsEdcast-FF" >
+  <test name="PositiveTestsEdcast-CH" >
   <parameter name ="browser" value ="chrome" />
   <parameter name ="username" value ="fortest.andrew@gmail.com" />
   <parameter name ="password" value ="Aa8452006027?" /> 
     <classes>
-       <class name="com.edcast.PositiveTestsEdcast" />
+       <class name="com.edcast.loginpage.PositiveTestsEdcastLogIn" />
     </classes>
   </test>
 
